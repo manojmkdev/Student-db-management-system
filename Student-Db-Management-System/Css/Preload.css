@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --font1: variex, sans-serif;
+    --font2: ocr-a-std, monospace;
+    --v: #7426CB;
+    --rp: #CD365F;
+    --o:#E36F17;
+    --gw:#11ECCF;
+    --bb:#2C2626;
+}
+body h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:var(--v);
+    background-color: var(--bb);
+    font-family: var(--font1);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+}

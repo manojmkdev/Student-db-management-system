@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1:variex, sans-serif;
+    --font2: ocr-a-std, monospace;
+    --v: #7426CB;
+    --rp: #CD365F;
+    --o:#E36F17;
+    --gw:#11ECCF;
+    --bb:#2C2626;
+}
+
+body{
+    background-color: var(--bb);
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+
+#nav{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    padding: 0px 20px 0px 20px;
+    background-color: var(--rp);
+    color: #fff;
+    height: 60px;
+    
+    align-items: center;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.f1{
+    font-family: Var(--font1);
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+.f2{
+    font-family: var(--font2);
+    font-weight: 400;
+    font-style: normal;
+    font-size:1rem;
+    color: #fff;
+}
+
+
+#main{
+    margin: 20px 50px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--v);
+    flex-direction: row;
+    object-fit: contain;
+    cursor: pointer;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#main:first-child{
+    background-color: #fff;
+}
+
+#middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;   
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36rem;
+    width: 20rem;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 25px;
+    transform: scale(1);
+    transition: background-color .3s ease, transform .2s linear;
+}
+
+.img1:hover{
+    transform: scale(1.05);
+    background-color:var(--bb);
+}
+
+.img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17rem;
+    width: 30rem;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 25px;
+    transform: scale(1);
+    transition: background-color .3s ease, transform .2s linear;
+}
+
+.img2:hover{
+    transform: scale(1.05);
+    background-color:var(--bb);
+}
+
+

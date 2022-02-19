@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/zdk2sfw.css">
+    <link rel="stylesheet" href="http://localhost/StudentData%20Management/Css/Loan.css">
+    <link rel="icon" href="http://localhost/StudentData%20Management/img/icon.ico">
+    <title>edu.in</title>
+</head>
+<body>
+        <!-- nav -->
+
+        <div id="nav">
+            <div>
+                <a href="http://localhost/StudentData%20Management/Html/SecondPage.html" >
+                    <h2 class="f1t">edu.in</h2>
+                </a>
+            </div>
+            <div class="back">
+                <div class="b">
+                    <a href="http://localhost/StudentData%20Management/Html/SecondPage.html" >
+                        <h2 class="f2">Back</h2>
+                    </a>
+                </div>
+                <div>
+                    <a href="http://localhost/StudentData%20Management/Html/StudentLogin.html">
+                        <h2  class="f2">Logout</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- loan form  -->
+
+        <div class="main">
+            <div id="tp">
+            <div><h2 class="f1t">Education Loan</h2></div>
+            <div><h2 class="f2" >Print</h2>
+                <a href="javascript:window.print()"><img src="http://localhost/StudentData%20Management/img/print.svg"></a>
+            </div>
+            </div>
+            <form action="./Greeting1.html">    
+                <div id="box2">
+                <div>
+                <label>fullname</label>
+                <input type="text" name="id" required/></div> 
+                <div>
+                <label>student id</label>
+                <input type="text" name="id" pattern="[0-9]{2}"required/></div>
+                <div>
+                <label>email id</label>
+                <input type="email" name="email" required/></div>
+                <div>
+                <label>address</label>
+                <textarea></textarea></div>
+                <div>
+                <label>contact number</label>
+                <input type="text" pattern="[0-9]{10}" name="number"></div>
+                <div>
+                <label>First Graduate</label>
+                <input type="checkbox"></div>
+                </div>
+                <input type="submit" class="f1 sb" value="Submit"/>
+            </form>
+        </div>
+</body>
+</html>

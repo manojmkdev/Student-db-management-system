@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1: variex, sans-serif;
+    --font2: ocr-a-std, monospace;
+    --v: #7426CB;
+    --rp: #CD365F;
+    --o:#E36F17;
+    --gw:#11ECCF;
+    --bb:#2C2626;
+}
+
+body{
+    background-color: var(--bb);
+}
+
+#nav{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    padding: 0px 20px;
+    background-color: var(--rp);
+    color: #fff;
+    height: 60px;
+    align-items: center;
+}
+
+.back{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.b{
+    padding-right: 40px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer; 
+}
+
+span{
+    color:var(--gw);
+}
+
+.f1{
+    font-family: Var(--font1);
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;    
+}
+
+.f2{
+    font-family: var(--font2);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: #fff;   
+}
+
+.f11{
+    font-family: Var(--font1);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--o);  
+}
+
+.f22{
+    font-family: var(--font2);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #fff; 
+}
+
+.f2d{
+    font-family: var(--font2);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--gw); 
+}
+
+.main{
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+#container{
+    margin: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box{
+    margin-left: 10px;
+    height: 2.5rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid var(--v);
+    border-top-left-radius: 15px ;
+    border-bottom-right-radius: 15px ;
+}
+
+#box1{
+    height: 8rem;
+    width: 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid var(--v);
+    border-bottom-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+    margin: 30px 0px;
+}
+
+#box2{
+    height: 17rem;
+    width: 70rem;
+    padding:20px;
+    border: 3px solid var(--v);
+    border-bottom-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+    margin: 30px 0px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: var(--v);
+}
+
+.nh{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.75rem ;
+    color: var(--gw);
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+

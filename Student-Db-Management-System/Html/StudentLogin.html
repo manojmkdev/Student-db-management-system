@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://localhost/StudentData%20Management/img/icon.ico">
+    <link rel="stylesheet" href="https://use.typekit.net/zdk2sfw.css">
+    <link rel="stylesheet" href="http://localhost/StudentData%20Management/Css/StudentLogin.css">
+    <script src="https://kit.fontawesome.com/615286b344.js" crossorigin="anonymous"></script>
+    <title>edu.in</title>
+</head>
+<body onload="load()">
+
+    <!-- loading -->
+
+        <div id="loading">
+            <h2>edu.in</h2>
+        </div>
+
+
+        <div class="Admin">
+            <a href="adminlogin.html">
+               <i class="fas fa-user-lock fa-3x"></i>
+            </a>
+            <br>
+            <br>
+            <h2 class="f1a"> 
+                 Admin Login
+            </h2>
+             
+        </div>
+
+    <!--form -->
+ 
+    <div class="main">
+        <form action="http://localhost/StudentData%20Management/php/login.php" method="POST">
+            <input type="submit" class="f1" name="login" value="Login"/>
+            <div id="box2">
+            <div>
+            <label>Student ID</label>
+            <input type="text" name="id" required/></div> 
+            <div>
+            <label>Password</label>
+            <input type="password" name="password" required/></div>
+            </div>
+            <button class="f1 sb"><a href="http://localhost/StudentData%20Management/php/StudentSignup.php">SignUp</a></button> 
+        </form>
+    </div>
+
+    <!-- script -->
+
+    <script>
+        let preLoad = document.getElementById('loading');
+        function load() {
+            preLoad.style.display = 'none';
+        }
+        
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1: variex, sans-serif;
+    --font2: ocr-a-std, monospace;
+    --v: #7426CB;
+    --rp: #CD365F;
+    --o:#E36F17;
+    --gw:#11ECCF;
+    --bb:#2C2626;
+}
+
+body{
+    background-color: var(--bb);
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer; 
+}
+
+#nav{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    padding: 0px 20px;
+    background-color: var(--rp);
+    color: #fff;
+    height: 60px;
+    align-items: center;
+}
+
+.back{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.b{
+    padding-right: 40px;
+}
+
+.f1t{
+    font-family: Var(--font1);
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+.f2{
+    font-family: var(--font2);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+.f1{
+    font-family: Var(--font1);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: var(--v);
+    border: none;
+    height: 4rem;
+    width: 8rem;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#box2{
+    font-family: var(--font2);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 40rem;
+    color: #fff;
+    width: 50rem;
+    padding:20px;
+    border: 3px solid var(--v);
+}
+
+input{
+    background-color: var(--bb);
+    border:none;
+    font-size: 1.2rem;
+    font-family: var(--font2);
+    outline: none;
+    border-bottom: 1.5px solid #fff;
+    color: #fff; 
+}
+
+label{
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
